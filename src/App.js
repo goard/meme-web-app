@@ -103,7 +103,7 @@ function App() {
         </Typography>
         <Grid justify="center" container>
           <Paper className={classes.paper} elevation={3}>
-            <img src={`https://${memeHash}.ipfs.infura-ipfs.io/`} />
+            <img src={`https://${memeHash}.ipfs.infura-ipfs.io/`} alt="meme"/>
           </Paper>
         </Grid>
       </Container>
